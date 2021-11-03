@@ -27,7 +27,7 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@v2-beta
         with:
-          version: 16.13.0 # optional
+          version: 12 # optional
        
       - name: GitHub Action for Yarn
         # You may pin to the exact commit or the version.
